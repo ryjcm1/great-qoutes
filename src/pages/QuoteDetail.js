@@ -51,7 +51,7 @@ const QuoteDetail = () => {
 
   return (
     <Fragment>
-      <h1>Quote Detail Page</h1>
+      {/* <h1>Quote Detail Page</h1> */}
       <HighlightedQuote text={loadedQuote.text} author={loadedQuote.author} />
       <Route path={match.path} exact>
         <div className="centered">
